@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px;
+}
+
+header h1{
+    border: solid 1px;
+    padding: 25px;
+    border-color: yellow;
+}
+
+main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 83vh;
+}
+
+.mainHeader{
+    border: solid 1px;
+    border-color: yellow;
+    margin-top: 50px;
+    padding: 25px;
+}
+
+.displayBoxesContainer{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.box1, .box2, .box3{
+    border: solid 1px;
+    border-color: yellow;
+    width: 400px;
+    height: 400px;
+    margin: 0 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.displayBoxesContainer img{
+    height: 33vh;
+}
+
+.displayBoxesContainer button{
+    margin-top: 25px;
+    width: 150px;
+    height: 50px;
+    background-color: rgb(126, 126, 255);
+    border: none;
+}
+
+.displayBoxesContainer button:hover{
+    background-color: rgb(27, 27, 255);
+}
+
+.displayBoxesContainer button:active{
+    background-color: white;
+}
+
+
+.buttonsContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: auto;
+}
+
+.buttonsContainer button{
+    width: 200px;
+    height: 40px;
+    margin-bottom: 100px;
+    margin-right: 200px;
+    margin-left: 200px;
+    border: solid 1px;
+    border-color: yellow;
+    background: none;
+    font-size: 25px;
+}
+
+.buttonsContainer button:hover{
+    background-color: rgb(117, 117, 0);
+    cursor: pointer;
+}
+
+.buttonsContainer button:active{
+    background-color: white;
+}
+
+
+
